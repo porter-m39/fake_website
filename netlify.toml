@@ -2,3 +2,8 @@
   # Replace "dist" with your actual build folder (e.g., "build", "out", "docs")
   publish = "."  
 
+[[redirects]]
+  from = "/index.html"
+  to = "/"
+  status = 301
+  force = true  # Ensures the redirect happens even if index.html exists
