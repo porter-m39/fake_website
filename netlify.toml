@@ -7,3 +7,8 @@
   to = "/"
   status = 301
   force = true  # Ensures the redirect happens even if index.html exists
+
+  from = "mrhudsonsfakewebsite.netlify.app"
+  to = "www.mrhudsonsfakesite.win"
+  status = 301
+  force = true  # Ensures the redirect happens even if index.html exists
